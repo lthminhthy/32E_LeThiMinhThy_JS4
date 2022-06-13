@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>JS buổi 4
+  </title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="container mt-2">
+    <h3>Bài 1: Xuất 3 số theo thứ tự tăng dần</h3>
+    <div class="form-group row">
+      <div class="col-4">
+        <input type="number" class="form-control" id="soThu1" placeholder="Nhập số thứ 1">
+      </div>
+      <div class="col-4">
+        <input type="number" class="form-control" id="soThu2" placeholder="Nhập số thứ 2">
+      </div>
+      <div class="col-4">
+        <input type="number" class="form-control" id="soThu3" placeholder="Nhập số thứ 3">
+      </div>
+    </div>
+    <button class="btn btn-primary" id="btnSapXep">Sắp xếp</button>
+    <div class="alert alert-success mt-3">
+      <i class="fa-solid fa-hand-point-right"></i>
+      <span id="ketQua1"></span>
+    </div>
+  </div>
+
+
+
+
+  <div class="container mt-2">
+    <h3>Bài 2: Chương trình "Chào hỏi"</h3>
+    <div>
+      <select class="form-control" name="" id="loiChao">
+        <option value="">Chọn thành viên</option>
+        <option value="B" id="Bo">Bố</option>
+        <option value="M" id="Me">Mẹ</option>
+        <option value="CG" id="chiGai">Chị gái</option>
+        <option value="AT" id="anhTrai">Anh trai</option>
+        <option value="EG" id="emGai">Em gái</option>
+        <option value="ET" id="emTrai">Em trai</option>
+      </select>
+    </div>
+
+    <button id="btnLoiChao" class="btn btn-primary mt-3">Gửi lời chào</button>
+    <div class="alert alert-success mt-3">
+      <i class="fa-solid fa-hand-point-right"></i>
+      <span id="ketQua2"></span>
+    </div>
+  </div>
+
+  <div class="container mt-2">
+    <h3>Bài 3: Đếm số chẵn lẻ</h3>
+    <div class="row">
+      <div class="form-group col-4">
+        <input type="number" class="form-control" id="so1" placeholder="Nhập số thứ 1">
+      </div>
+      <div class="form-group col-4">
+        <input type="number" class="form-control" id="so2" placeholder="Nhập số thứ 2">
+      </div>
+      <div class="form-group col-4">
+        <input type="number" class="form-control" id="so3" placeholder="Nhập số thứ 3">
+      </div>
+    </div>
+    <button id="btnDem" class="btn btn-primary ">Đếm</button>
+    <div class="alert alert-success mt-3">
+      <i class="fa-solid fa-hand-point-right"></i>
+      <span id="ketQua3"></span>
+    </div>
+  </div>
+
+
+  <div class="container mt-2">
+    <h3>Bài 4: Đoán hình tam giác</h3>
+    <div class="row">
+      <div class="form-group col-4">
+        <input type="number" class="form-control" id="canh1" placeholder="Nhập độ dài cạnh 1">
+      </div>
+      <div class="form-group col-4">
+        <input type="number" class="form-control" id="canh2" placeholder="Nhập độ dài cạnh 2">
+      </div>
+      <div class="form-group col-4">
+        <input type="number" class="form-control" id="canh3" placeholder="Nhập độ dài cạnh 3">
+      </div>
+    </div>
+    <button id="btnDuDoan" class="btn btn-primary ">Dự đoán</button>
+    <div class="alert alert-success mt-3">
+      <i class="fa-solid fa-hand-point-right"></i>
+      <span id="ketQua4"></span>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+
+  
+  <script src="./JS/index.js"></script>
+</body>
+
+</html>

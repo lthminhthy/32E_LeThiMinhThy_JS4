@@ -118,5 +118,8 @@ document.getElementById('btnDuDoan').onclick = function () {
     else if ((canh1 * canh1 + canh2 * canh2 == canh3 * canh3) || (canh1 * canh1 + canh3 * canh3 == canh2 * canh2) || (canh2 * canh2 + canh3 * canh3 == canh1 * canh1)) {
         ketQua4 = "Tam giác vuông"
     }
+    else{
+        ketQua4 = "Tam giác khác";
+    }
     document.getElementById('ketQua4').innerHTML= ketQua4;
 }
